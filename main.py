@@ -6,19 +6,19 @@ photos = document.getElementById("photos")
 photos.innerHTML = """
 <div class="row justify-content-center">
     <div class="col-md-5 mb-4" id="activity">
-            <img src="Halloween.JPG"><br>
+            <img src="Halloween.jpg"><br>
             <p><b>Halloween</b></p>
             <p class="sub">Oct. 24, 2025 | Kpop Demon Hunters!</p>
     </div>
 
     <div class="col-md-5 mb-4" id="activity">
-            <img src="ChristmasParty.JPG"><br>
+            <img src="ChristmasParty.jpg"><br>
             <p><b>Christmas Party</b></p>
             <p class="sub">Dec. 18, 2025 | Sir De Guzman & Sir Gervacio</p>
     </div>
 
     <div class="col-md-5 mb-4" id="activity">
-            <img src="MiniMart.JPG"><br>
+            <img src="MiniMart.jpg"><br>
             <p><b>Mini Mart and Food Fair</b></p>
             <p class="sub">Dec. 5, 2025 | Slam Dunk!</p>
     </div>
