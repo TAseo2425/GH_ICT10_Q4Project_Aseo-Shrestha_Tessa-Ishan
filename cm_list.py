@@ -6,7 +6,7 @@ class cm:
         self.subject = subject
 
     def introduce(self):
-        display(f'Hi! I am {self.name} from {self.section}. My favorite subject is {self.subject}.', target='output5')
+        display(f'{self.name} is from {self.section} and they like {self.subject}.', target='output5')
 
 
 cm1 = cm('Benigo Rivera', 'Sapphire', 'PE')
