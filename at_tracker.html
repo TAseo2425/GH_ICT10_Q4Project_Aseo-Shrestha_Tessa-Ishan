@@ -20,7 +20,7 @@
 
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">SY 2025-2026</a>
+    <a class="navbar-brand" href="index.html">SY 2025-2026</a>
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Photos page</a></li>
@@ -32,16 +32,34 @@
 </nav>
 <style>
     body {
-        background-color: lightslategray;
-        font-family: "Lexend", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        font-style: normal;
+      background-color: lightslategray;
+      font-family: "Lexend", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      text-align: center;
+      text-align: center;
+    }
+    h1{
+      margin: 40px;
+      }
+    nav{
+          margin-bottom: 20px;
+        }
+    #out{
+      margin: 40px;
+    }
+    .form-control{
+      max-width: 300px;
+    }
+    input, button, select {
+      display: block;
+      margin: 10px auto;
     }
 </style>
 <h3>Attendance Tracker</h3>
 
-<select id="day">
+<select id="day" class="form-control">
     <option>Monday</option>
     <option>Tuesday</option>
     <option>Wednesday</option>
@@ -49,9 +67,9 @@
     <option>Friday</option>
 </select>
 
-<input type="number" id="absences" placeholder="Enter absences">
+<input type="number" id="absences" placeholder="Enter absences" class="form-control">
 
-<button py-click="add_data">Submit</button>
+<button py-click="add_data" class="form-control">Submit</button>
 
 <div id="out"></div>
 
